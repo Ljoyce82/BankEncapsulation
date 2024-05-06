@@ -6,7 +6,8 @@ namespace BankEncapsulation
     {
         static void Main(string[] args)
         {
-                var account = new BankAccount();
+                var account = new BankAccount(); //this has to be out loop or resets there account ever loop 
+
             while (true)
             {
 
